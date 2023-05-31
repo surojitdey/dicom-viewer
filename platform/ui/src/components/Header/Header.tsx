@@ -44,8 +44,8 @@ function Header({
             )}
             <div className="ml-4">
               {WhiteLabeling?.createLogoComponentFn?.(React, props) || (
-                // <Svg name="logo-ohif" />
-                <img src='./logo.png' style={{height: "40px"}}/>
+                <Svg name="logo"/>
+                // <img src='./logo.png' style={{height: "40px"}}/>
               )}
             </div>
           </div>

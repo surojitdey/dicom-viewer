@@ -17,7 +17,7 @@ const Dropdown = ({ id, children, showDropdownIcon, list, titleClassName }) => {
         )}
         onClick={() => {
           setOpen(false);
-          onClick();
+          // onClick();
         }}
         data-cy={id}
       >
